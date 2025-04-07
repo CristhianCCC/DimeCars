@@ -3,6 +3,7 @@ import VehiculoService from "../services/VehiculoService";
 import { Vehiculo } from "../types";
 import { useParams } from "react-router-dom";
 import FormatCurrency from "../helpers";
+import axios, { Axios } from "axios";
 
 export default function VehiculoInfo () {
 
@@ -28,6 +29,16 @@ const imagen = "/images/Corolla-sedan-descripcion.jpg"
         return <p className="text-center mt-10">Cargando información del vehículo...</p>;
         }
 
+        function EliminarVehiculo (id: number) {
+            axios.delete(`http://localhost:8080/vehiculo/${id}`).then(response => {
+                response.data;
+                window.location.href = "/vehiculos";
+            })
+        }
+
+
+
+
     return (
         <>
             <div className="p-20 lg:flex flex-row">
@@ -38,7 +49,7 @@ const imagen = "/images/Corolla-sedan-descripcion.jpg"
                 <p className="font-bold text-4xl text-lime-600 pt-10">Precio {FormatCurrency(vehiculoId.precio)}</p>
 
                 <button className="bg-yellow-500 mt-20 w-full py-5 text-2xl text-white font-bold cursor-pointer border border-2xl rounded-2xl">Editar</button>
-                <button className="bg-red-500 mt-5 w-full py-5 text-2xl text-white font-bold cursor-pointer border border-2xl rounded-2xl">Eliminar</button>
+                <button className="bg-red-500 mt-5 w-full py-5 text-2xl text-white font-bold cursor-pointer border border-2xl rounded-2xl" onClick={() => EliminarVehiculo(vehiculoId.id)}>Eliminar</button>
             </div>
             </div>
         </>      
