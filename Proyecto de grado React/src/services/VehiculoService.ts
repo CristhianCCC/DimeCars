@@ -16,7 +16,7 @@ const VEHICULO_REST_API_URL = "http://localhost:8080/vehiculo";
         static deleteVehiculo(id: number){
             return axios.delete(VEHICULO_REST_API_URL + "/" + id);
         }
-        static crearVehiculo(vehiculo: Vehiculo){
+        static crearVehiculo (vehiculo: Vehiculo) {
             return axios.post(VEHICULO_REST_API_URL, vehiculo);
         }
     }

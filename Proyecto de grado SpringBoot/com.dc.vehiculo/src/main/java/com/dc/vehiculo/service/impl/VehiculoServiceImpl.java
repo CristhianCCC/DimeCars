@@ -19,7 +19,7 @@ public class VehiculoServiceImpl implements VehiculoService {
 
     @Override
     public Vehiculo crearVehiculo(Vehiculo vehiculo) {
-         return vehiculoRepository.save(vehiculo);
+        return vehiculoRepository.save(vehiculo);
     }
 
     @Override

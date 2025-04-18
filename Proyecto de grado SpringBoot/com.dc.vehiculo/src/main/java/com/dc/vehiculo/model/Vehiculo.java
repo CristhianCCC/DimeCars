@@ -1,12 +1,9 @@
 package com.dc.vehiculo.model;
 
-
 import jakarta.persistence.*;
 import lombok.*;
 
 @Entity
-@Getter
-@Setter
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -22,5 +19,6 @@ public class Vehiculo {
 
     private String descripcion;
 
-
+    @Version
+    private Integer version;
 }

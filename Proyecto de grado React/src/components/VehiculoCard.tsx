@@ -31,7 +31,7 @@ export default function VehiculoCard() {
                     <p className="text-gray-500 text-sm mt-2">{carro.descripcion}</p>
                     <p className="text-bold-500 font-semibold text-xl">{FormatCurrency(carro.precio)}</p>
                     <div className="mt-4">
-                    <button className="bg-lime-600 text-white font-bold px-4 py-2 rounded-lg shadow-md cursor-pointer" onClick={() => vehiculoInfo(`/vehiculo/${carro.id}`)}>Ver producto</button>
+                    <button className="bg-lime-600 shadow-2xl shadow-lime-950 text-white font-bold px-4 py-2 rounded-lg cursor-pointer" onClick={() => vehiculoInfo(`/vehiculo/${carro.id}`)}>Ver producto</button>
                 </div>
                 
             </div>

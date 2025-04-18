@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dd27b281-f3b6-460f-af19-f31039252831" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Proyecto de grado React/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto de grado React/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto de grado React/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto de grado React/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto de grado React/src/components/CrearVehiculo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto de grado React/src/components/CrearVehiculo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto de grado React/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto de grado React/src/index.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2vsJ7bA5ZCSLTtpeTEwUInECfHi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Janus/Desktop/DimeCars/Proyecto de grado SpringBoot"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd27b281-f3b6-460f-af19-f31039252831" name="Changes" comment="" />
+      <created>1744927681885</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744927681885</updated>
+    </task>
+    <servers />
+  </component>
+</project>
